@@ -9,7 +9,7 @@ class countryMedals {
 }
 
 //$country = "USA";
-$con = mysqli_connect('localhost','johnfoxs_oly','N1zz!wald');
+$con = mysqli_connect('localhost','johnfoxs_oly','');
 $con->set_charset('utf8');
 
 if (!$con)
