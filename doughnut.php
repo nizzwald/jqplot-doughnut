@@ -28,7 +28,7 @@
         Select a country from the dropdown box to see the combined medal totals from the Winter and Summer games.
 		<br />
 <?php
-$con = mysqli_connect('localhost','johnfoxs_oly','N1zz!wald');
+$con = mysqli_connect('localhost','johnfoxs_oly','');
 $con->set_charset('utf8');
 
 if (!$con)
